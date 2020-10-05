@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "incremental": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src/**/*", "./package.json", "./src/**/*.json"],
+  "references": [
+    {
+      "path": "../lib"
+    }
+  ]
+}
