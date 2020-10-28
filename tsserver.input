@@ -1,0 +1,2 @@
+{ "seq": 0, "type": "request", "command": "open",                   "arguments": { "file": "$PWD/packages/app/src/index.ts" } }
+{ "seq": 1, "type": "request", "command": "quickinfo",              "arguments": { "file": "$PWD/packages/app/src/index.ts", "line": 3, "offset": 7 } }
