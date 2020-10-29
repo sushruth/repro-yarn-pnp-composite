@@ -3,7 +3,7 @@
 
 RESULT=`sed -e 's|$PWD|'$PWD'|g' < tsserver.input | yarn tsserver | grep quickinfo | jq -r '.body.displayString'`
 
-if [ "$RESULT" = "(method) Foo.helloWorld(): \"hello world\"" ]; then
+if [ "$RESULT" = "type Check = \"shared foo\" | \"shared bar\" | \"lib foo\"" ]; then
   echo "PASS";
 else
   echo "FAIL";

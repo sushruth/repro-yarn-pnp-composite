@@ -1,5 +1,5 @@
 export class Foo {
   public static helloWorld() {
-    return "hello world" as const;
+    return "lib foo" as const;
   }
 }

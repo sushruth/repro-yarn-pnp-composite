@@ -19,6 +19,10 @@
   "references": [
     {
       "path": "../lib"
-    }
+    },
+    {
+      "path": "../lib2"
+    },
+    { "path": "../shared" }
   ]
 }
