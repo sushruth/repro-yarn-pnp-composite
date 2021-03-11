@@ -7,3 +7,4 @@ dist
 .pnp.*
 *.tsbuildinfo
 repro.zip
+node_modules

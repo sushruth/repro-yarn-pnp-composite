@@ -290,7 +290,7 @@ __metadata:
     lodash: 4.17.20
     shared: "workspace:*"
     tslib: ^2.0.1
-    typescript: ^4.0.3
+    typescript: 4.0.5
   languageName: unknown
   linkType: soft
 
@@ -1364,7 +1364,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-typescript@^4.0.3:
+typescript@4.0.5:
   version: 4.0.5
   resolution: "typescript@npm:4.0.5"
   bin:
@@ -1374,13 +1374,13 @@ typescript@^4.0.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.0.3#builtin<compat/typescript>":
+"typescript@patch:typescript@4.0.5#builtin<compat/typescript>":
   version: 4.0.5
-  resolution: "typescript@patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=466530"
+  resolution: "typescript@patch:typescript@npm%3A4.0.5#builtin<compat/typescript>::version=4.0.5&hash=5b26c6"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 7a1cd554e32cd45704096fda03ed2ba10e267949240dfd90a40647045f0881ffe9ce88e30fd986d9d300b9c53b021f1a871724cd56d11df7a79883164e53b416
+  checksum: a5d7f9b825e031978822eec62d3821c9eba9e6ae111e17be8ddcf1f001ab4e3a18075ffe1a88f3b53a48ce15bb6eeb320c3916994e9b5d1bfdd45026275acd00
   languageName: node
   linkType: hard
 
@@ -1421,6 +1421,6 @@ typescript@^4.0.3:
   resolution: "yarn-pnp-composite@workspace:."
   dependencies:
     "@yarnpkg/pnpify": ^2.3.1
-    typescript: ^4.0.3
+    typescript: 4.0.5
   languageName: unknown
   linkType: soft
