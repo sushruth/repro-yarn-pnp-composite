@@ -9,7 +9,7 @@
     "lodash": "4.17.20",
     "shared": "workspace:*",
     "tslib": "^2.0.1",
-    "typescript": "4.0.5"
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
     "@types/node": "^14.11.2"
