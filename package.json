@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
@@ -15,5 +14,6 @@
     "typescript@4.3.5": {
       "unplugged": true
     }
-  }
+  },
+  "packageManager": "yarn@3.0.0"
 }

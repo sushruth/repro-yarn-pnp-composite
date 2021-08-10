@@ -18,11 +18,14 @@
   "include": ["./src/**/*", "./package.json", "./src/**/*.json"],
   "references": [
     {
-      "path": "../lib"
+      "path": "../lib/tsconfig.json"
     },
     {
       "path": "../lib2"
     },
-    { "path": "../shared" }
+    { "path": "../shared" },
+    {
+      "path": "../../"
+    }
   ]
 }
